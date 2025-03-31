@@ -1,6 +1,6 @@
 {
-	"id": "utahscientific-bpspanel-custom",
-	"name": "utahscientific-bpspanel-custom",
+	"id": "utahscientific-bpspanel",
+	"name": "utahscientific-bpspanel",
 	"shortname": "bpspanel",
 	"description": "Companion module for Utah scientific Button per source",
 	"version": "2.0.0",

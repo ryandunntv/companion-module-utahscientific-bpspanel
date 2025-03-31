@@ -1,5 +1,7 @@
 ## BPS Panel
 
+## SORT SOURCES, DESTINATIONS BY ROUTER ID
+
 This module connects to devices that support the RCP3 protocol.
 
 ** Configuration

@@ -14,7 +14,7 @@
 		}
 	],
 	"legacyIds": [
-		"bps"
+		"bps-custom"
 	],
 	"runtime": {
 		"type": "node18",

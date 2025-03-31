@@ -159,11 +159,7 @@ setupDstList= function ()
 		self.dest_names.push ({label:key, id:value })
 		//console.log('Dest:' + value + ':' + key )
 	})
-	self.dest_names.sort((a, b) => {
-		if (a.label > b.label) return 1;
-		if (a.label < b.label) return -1;
-		return 0;
-	})
+	this.dest_names.sort((a, b) => a.id - b.id);
 	//console.log( "setupDstList -- dest_names size: " + self.dest_names.length)
 }
 
@@ -175,11 +171,7 @@ setupSrcList= function ()
 	{
 		self.source_names.push ({label:key, id:value})
 	}) 
-	self.source_names.sort((a, b) => {
-		if (a.label > b.label) return 1;
-		if (a.label < b.label) return -1;
-		return 0;
-	})
+	this.source_names.sort((a, b) => a.id - b.id);
 }
 
 setupPresetList= function () 

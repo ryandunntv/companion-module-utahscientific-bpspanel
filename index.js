@@ -4,7 +4,7 @@
 import { InstanceBase, Regex, TCPHelper, combineRgb, runEntrypoint } from '@companion-module/base'
 //import { CompanionVariableValues } from '@companion-module/base'
 
-class UtahRCP3 extends InstanceBase {
+class UtahScientificBps extends InstanceBase {
 	async configUpdated(config) {
 		let reconnect = this.config.host !== config.host || this.config.channel !== config.channel;
 
@@ -1204,4 +1204,4 @@ takeCmd  (srcname, dstname) {
 }
 }
 
-runEntrypoint(UtahRCP3, [])
+runEntrypoint(UtahScientificBps, [])

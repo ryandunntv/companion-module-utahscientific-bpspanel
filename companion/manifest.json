@@ -20,7 +20,7 @@
 		"type": "node18",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
-		"entrypoint": "..\\dist\\bundle.js"
+		"entrypoint": "../dist/bundle.js"
 	},
 	"manufacturer": "Utah Scientific",
 	"products": [
